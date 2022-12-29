@@ -1,0 +1,71 @@
+*, 
+*::after, 
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cursedTimer;
+  src: url("CursedTimerULiL.woff");
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'cursedTimer';
+  font-size: 1.5rem;
+  color: #464343;
+  background-color: buttonface;
+  border: 2px solid #c40ae9;
+  box-shadow: 5px 5px 1px #464343;
+  padding: .7em;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border: 3px solid #c40ae9;
+  box-shadow: 8px 8px 1px #464343;
+}
+
+#btn {
+  font-family: 'cursedTimer';
+  color: #c40ae9;
+  width: 6em;
+  height: 6em;
+  border: 2px solid #c40ae9;
+  border-radius: 50%;
+  margin: 2em 0;
+  cursor: pointer;
+  box-shadow: 5px 5px 1px #464343;
+}
+
+#btn:hover,
+#btn:active {
+  color: rgb(41, 237, 165);
+  border-color: rgb(41, 237, 165);
+  box-shadow: 5px 5px 1px #464343;
+}
+
